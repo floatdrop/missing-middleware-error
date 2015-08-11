@@ -1,0 +1,37 @@
+{
+  "name": "missing-middleware-error",
+  "version": "0.0.0",
+  "description": "Error class for missing middlewares",
+  "license": "MIT",
+  "repository": "floatdrop/missing-middleware-error",
+  "author": {
+    "name": "Vsevolod Strukchinsky",
+    "email": "floatdrop@gmail.com",
+    "url": "github.com/floatdrop"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "required",
+    "middleware",
+    "error"
+  ],
+  "dependencies": {
+    "create-error-class": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "eslint-config-xo": "^0.3.1",
+    "mocha": "^2.2.5"
+  },
+  "eslintConfig": {
+    "extends": "xo"
+  }
+}
