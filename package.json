@@ -1,6 +1,6 @@
 {
   "name": "missing-middleware-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error class for missing middlewares",
   "license": "MIT",
   "repository": "floatdrop/missing-middleware-error",
